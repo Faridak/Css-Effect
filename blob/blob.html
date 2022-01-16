@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blob</title>
+    <link rel="stylesheet" type="text/css" href="blob.css">
+</head>
+<body>
+    <section>
+        <div class="blob">
+        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color: rgb(254,0,242);"></stop>
+                <stop offset="100%" style="stop-color: rgb(251,2,128);"></stop>
+              </linearGradient>
+            </defs>
+            <path  fill="url(#gradient)">
+                <animate attributeName="d"
+                dur="10000ms"
+                repeatCount="indefinite"
+                values="
+                M447,303Q416,356,384.5,415Q353,474,291,436.5Q229,399,183.5,389Q138,379,107.5,340Q77,301,60.5,245Q44,189,97,162Q150,135,183.5,77.5Q217,20,280,33Q343,46,377.5,96Q412,146,445,198Q478,250,447,303Z;
+                M397,304.5Q380,359,330,388.5Q280,418,203,441.5Q126,465,97.5,390.5Q69,316,87.5,257Q106,198,139.5,157.5Q173,117,229.5,81Q286,45,325.5,99Q365,153,389.5,201.5Q414,250,397,304.5Z;
+                M429,299Q367,348,330,421Q293,494,219.5,462Q146,430,123,367.5Q100,305,73.5,240.5Q47,176,103.5,135Q160,94,221.5,79Q283,64,331,103Q379,142,435,196Q491,250,429,299Z;
+                M392.5,300.5Q371,351,327.5,396Q284,441,216,434Q148,427,126,365Q104,303,102,249Q100,195,115.5,119.5Q131,44,208.5,46Q286,48,343,86Q400,124,407,187Q414,250,392.5,300.5Z;
+                M425.5,306Q383,362,332,393.5Q281,425,203,445.5Q125,466,117,383.5Q109,301,77.5,238.5Q46,176,99.5,129Q153,82,217,79Q281,76,361,83Q441,90,454.5,170Q468,250,425.5,306Z
+                ">
+                <!-- add 1st and last value same for loop animation-->
+            </animate>
+            </path>
+          </svg>
+        </div>
+        
+        <!--glow effects-->
+        <div class="blob">
+            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                <defs>
+                  <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color: rgb(254,0,242);"></stop>
+                    <stop offset="100%" style="stop-color: rgb(251,2,128);"></stop>
+                  </linearGradient>
+                </defs>
+                <path  fill="url(#gradient)">
+                    <animate attributeName="d"
+                    dur="10000ms"
+                    repeatCount="indefinite"
+                    values="
+                    M447,303Q416,356,384.5,415Q353,474,291,436.5Q229,399,183.5,389Q138,379,107.5,340Q77,301,60.5,245Q44,189,97,162Q150,135,183.5,77.5Q217,20,280,33Q343,46,377.5,96Q412,146,445,198Q478,250,447,303Z;
+                    M397,304.5Q380,359,330,388.5Q280,418,203,441.5Q126,465,97.5,390.5Q69,316,87.5,257Q106,198,139.5,157.5Q173,117,229.5,81Q286,45,325.5,99Q365,153,389.5,201.5Q414,250,397,304.5Z;
+                    M429,299Q367,348,330,421Q293,494,219.5,462Q146,430,123,367.5Q100,305,73.5,240.5Q47,176,103.5,135Q160,94,221.5,79Q283,64,331,103Q379,142,435,196Q491,250,429,299Z;
+                    M392.5,300.5Q371,351,327.5,396Q284,441,216,434Q148,427,126,365Q104,303,102,249Q100,195,115.5,119.5Q131,44,208.5,46Q286,48,343,86Q400,124,407,187Q414,250,392.5,300.5Z;
+                    M425.5,306Q383,362,332,393.5Q281,425,203,445.5Q125,466,117,383.5Q109,301,77.5,238.5Q46,176,99.5,129Q153,82,217,79Q281,76,361,83Q441,90,454.5,170Q468,250,425.5,306Z
+                    ">
+                    <!-- add 1st and last value same for loop animation-->
+                </animate>
+                </path>
+              </svg>
+            </div>
+    </section>
+</body>
+</html>
+
